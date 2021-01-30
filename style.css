@@ -1,8 +1,50 @@
-table {
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gaegu', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(img/paper.jpg);
+    background-size: 50%;
+    
+}
+.page{
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 4em;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px #aaa;
+}
+h1{
+    margin-bottom: 2rem;
+    text-align: center;
 }
 td {
     width: 50px;
     height: 50px;
     border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#main{
+    width: 154px;
+    margin: auto;
+}
+#info{
+    font-size: 28px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
 }
