@@ -50,7 +50,7 @@ const Gameboard = (() => {
         info.innerText = text;
         info.style.display = 'flex';
         const btn = document.createElement('a');
-        btn.setAttribute('href', '/index.html');
+        btn.setAttribute('href', 'https://irinakuz.github.io/tic-tac-toe');
         btn.setAttribute('class', 'playAgain');
         btn.innerText = 'Play Again?';
         info.appendChild(btn);
