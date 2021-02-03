@@ -112,5 +112,5 @@ const Gameboard = (() => {
         document.querySelector('#main').appendChild(table);
         cellsAddEvents();
     };
-    return {recordTurn, makeTurn, changeTurn, draw};
+    return {makeTurn, draw};
 })();
